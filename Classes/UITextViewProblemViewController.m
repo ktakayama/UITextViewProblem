@@ -22,6 +22,8 @@
     [btn addTarget:self action:@selector(reloadView) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
 
+    // このテキストビューが firstResponder になると、
+    // 以降の update TextView の時に UITextView の行間が小さくなります
     UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(0,0,10,10)];
     textField.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:textField];
