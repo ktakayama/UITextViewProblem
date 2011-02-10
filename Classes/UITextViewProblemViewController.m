@@ -37,12 +37,11 @@
    [textView release];
 
    textView = [[UITextView alloc] initWithFrame:CGRectMake(70, 100, 180, 300)];
-   textView.font = [UIFont systemFontOfSize:13];
    textView.editable = NO;
    textView.userInteractionEnabled = NO;
    textView.backgroundColor = [UIColor whiteColor];
    [self.view addSubview:textView];
-   textView.text = @"サンプルテキスト1行目\nサンプルテキスト2行目\nサンプルテキスト3行目\nサンプルテキスト4行目\nサンプルテキスト5行目\nサンプルテキスト6行目\nサンプルテキスト7行目\nサンプルテキスト8行目\nサンプルテキスト9行目\nサンプルテキスト10行目\nサンプルテキスト11行目\nサンプルテキスト12行目\nサンプルテキスト13行目\nサンプルテキスト14行目\nサンプルテキスト15行目";
+   textView.text = @"サンプルテキスト1行目\nサンプルテキスト2行目\nサンプルテキスト3行目\nサンプルテキスト4行目\nサンプルテキスト5行目\nサンプルテキスト6行目\nサンプルテキスト7行目\nサンプルテキスト8行目\nサンプルテキスト9行目\nサンプルテキスト10行目\nサンプルテキスト11行目\nサンプルテキスト12行目\nサンプルテキスト13行目\nサンプルテキスト14行目\nサンプルテキスト15行目\nサンプルテキスト16行目\nサンプルテキスト17行目\nサンプルテキスト18行目\nサンプルテキスト19行目\nサンプルテキスト20行目";
 }
 
 - (void)dealloc {
